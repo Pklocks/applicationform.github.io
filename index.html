@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        fieldset{
+            background-color: transparent;
+        }
+        body{
+            background-image: url(https://thumbs.dreamstime.com/b/b%C3%A2timent-d-universit%C3%A9-de-campus-universitaire-54640536.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            color: rgb(255, 221, 0);
+        }
+
+    </style>
+</head>
+<body><center>
+ <br><br><br><fieldset style="width: 40%;"> <legend>student application form</legend> <form action="#">
+        <label for="name">student name:</label><br>
+        <input type="text" size="20" maxlength="35" placeholder="first" required> <input type="text" size="20" maxlength="35" placeholder="last" required><br><br>
+
+        <label for="date of bith"> Date of birth</label><br>
+        <input type="date"  required><label for="age"> Age </label>    <input type="number" size="20" maxlength="2" required><br><br>
+        
+        <label for="gender">gender</label><br>
+        <input type="radio" name="gender" value="male"><lable for="gender">male</lable><input type="radio" name="gender" value="femali"><lablr for="gender">female</lablr><br><br>
+
+        <label for="name">Parent/Gardian</label><br>
+        <input type="text" name="parent" placeholder="first" required>  <input type="text" name="gardian" placeholder="last"><br><br>
+
+        <label for="text">Address </label><br>
+        <input type="text" size="46" maxlength="30" placeholder="Street Address"><br><br><input type="text" size="46" maxlength="35" placeholder="street address line 2"><br><br>
+
+        <input type="text" size="20" maxlength="30" placeholder="city">  <input type="text" size="20" maxlength="30" placeholder="region"><br><br>
+        
+        <label for="email/Phone"> Email/Phone</label><br>
+        <input type="email" size="20" maxlength="30" placeholder="example123@gmail.com" required> <input type="tel" size="20" maxlength="10" placeholder="### ### ####"><br><br>
+        
+        <lable for="image">uplode photo/sign</lable><br>
+        <input type="file" name="photo" value="photo" required><input type="file" required><br><br>
+
+        <input type="submit">   <input type="reset">
+    </form></fieldset></center>
+</body>
+</html>
